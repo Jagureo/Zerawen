@@ -2334,6 +2334,10 @@ draw_sprite_stretched(icon_inventory,-1,800,32,50,50);
 else
 {
 draw_sprite_stretched(icon_inventory_hover,-1,800,32,50,50);
+if(mouse_check_button_pressed(mb_left) &amp;&amp; room_get_name(room) == "room0")
+{
+room_goto(room1);
+}
 }
 
 </string>
