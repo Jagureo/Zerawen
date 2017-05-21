@@ -16,6 +16,7 @@
     <sprite>sprites\energy</sprite>
     <sprite>sprites\icon_inventory</sprite>
     <sprite>sprites\icon_inventory_hover</sprite>
+    <sprite>sprites\spr_attack</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -26,6 +27,8 @@
     <object>objects\obj_tree</object>
     <object>objects\obj_heal</object>
     <object>objects\obj_damage</object>
+    <object>objects\obj_attack</object>
+    <object>objects\obj_debugspeed</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
