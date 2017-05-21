@@ -10,17 +10,26 @@
     <sprite>sprites\spr_playerU</sprite>
     <sprite>sprites\spr_playerL</sprite>
     <sprite>sprites\spr_playerR</sprite>
-    <sprite>sprites\spr_attack</sprite>
+    <sprite>sprites\spr_tree1</sprite>
+    <sprite>sprites\heart</sprite>
+    <sprite>sprites\empty_heart</sprite>
+    <sprite>sprites\energy</sprite>
+    <sprite>sprites\icon_inventory</sprite>
+    <sprite>sprites\icon_inventory_hover</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
-    <object>objects\obj_debugspeed</object>
-    <object>objects\obj_attack</object>
+    <object>objects\obj_tree</object>
+    <object>objects\obj_heal</object>
+    <object>objects\obj_damage</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
