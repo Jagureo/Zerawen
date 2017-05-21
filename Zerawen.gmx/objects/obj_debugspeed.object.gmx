@@ -65,6 +65,34 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>613</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_draw_variable</functionname>
+        <codestring></codestring>
+        <whoName>obj_attack</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>radtodeg(arctan(-vspeed/hspeed))</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>64</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
   </events>
   <PhysicsObject>0</PhysicsObject>
