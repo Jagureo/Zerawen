@@ -17,6 +17,37 @@
     <sprite>sprites\icon_inventory</sprite>
     <sprite>sprites\icon_inventory_hover</sprite>
     <sprite>sprites\spr_attack</sprite>
+    <sprites name="BaseCharacter">
+      <sprite>sprites\spr_bodyD</sprite>
+      <sprite>sprites\spr_bodyU</sprite>
+      <sprite>sprites\spr_bodyL</sprite>
+      <sprite>sprites\spr_bodyR</sprite>
+      <sprite>sprites\spr_backhairD</sprite>
+      <sprite>sprites\spr_backhairU</sprite>
+      <sprite>sprites\spr_backhairL</sprite>
+      <sprite>sprites\spr_backhairR</sprite>
+      <sprite>sprites\spr_fronthairD</sprite>
+      <sprite>sprites\spr_fronthairU</sprite>
+      <sprite>sprites\spr_fronthairL</sprite>
+      <sprite>sprites\spr_fronthairR</sprite>
+      <sprite>sprites\spr_pantsD</sprite>
+      <sprite>sprites\spr_pantsU</sprite>
+      <sprite>sprites\spr_pantsL</sprite>
+      <sprite>sprites\spr_pantsR</sprite>
+      <sprite>sprites\spr_shoesD</sprite>
+      <sprite>sprites\spr_shoesU</sprite>
+      <sprite>sprites\spr_shoesL</sprite>
+      <sprite>sprites\spr_shoesR</sprite>
+      <sprite>sprites\spr_topD</sprite>
+      <sprite>sprites\spr_topU</sprite>
+      <sprite>sprites\spr_topL</sprite>
+      <sprite>sprites\spr_topR</sprite>
+      <sprite>sprites\spr_twintailD</sprite>
+      <sprite>sprites\spr_twintailU</sprite>
+      <sprite>sprites\spr_twintailL</sprite>
+      <sprite>sprites\spr_twintailR</sprite>
+    </sprites>
+    <sprite>sprites\spr_enemy1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -29,6 +60,13 @@
     <object>objects\obj_damage</object>
     <object>objects\obj_attack</object>
     <object>objects\obj_debugspeed</object>
+    <object>objects\obj_backhair</object>
+    <object>objects\obj_shoes</object>
+    <object>objects\obj_pants</object>
+    <object>objects\obj_top</object>
+    <object>objects\obj_fronthair</object>
+    <object>objects\obj_twintail</object>
+    <object>objects\obj_enemy1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
