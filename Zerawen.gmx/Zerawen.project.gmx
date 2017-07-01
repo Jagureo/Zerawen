@@ -48,9 +48,20 @@
       <sprite>sprites\spr_twintailR</sprite>
     </sprites>
     <sprite>sprites\spr_enemy1</sprite>
+    <sprite>sprites\spr_building1</sprite>
+    <sprite>sprites\spr_building2</sprite>
+    <sprite>sprites\spr_building3</sprite>
+    <sprite>sprites\spr_lamp</sprite>
+    <sprite>sprites\spr_lampoff</sprite>
+    <sprite>sprites\spr_roof1</sprite>
+    <sprite>sprites\spr_roof2</sprite>
+    <sprite>sprites\spr_roof3</sprite>
+    <sprite>sprites\spr_stopsign</sprite>
+    <sprite>sprites\spr_stopsignV</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\pavement</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -67,8 +78,15 @@
     <object>objects\obj_fronthair</object>
     <object>objects\obj_twintail</object>
     <object>objects\obj_enemy1</object>
+    <object>objects\obj_building1</object>
+    <object>objects\obj_lamp</object>
+    <object>objects\obj_level2manager</object>
+    <object>objects\obj_roof</object>
+    <object>objects\obj_stopsign</object>
+    <object>objects\obj_stopsignV</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\level2</room>
     <room>rooms\room0</room>
     <room>rooms\room1</room>
   </rooms>
