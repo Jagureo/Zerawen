@@ -58,10 +58,16 @@
     <sprite>sprites\spr_roof3</sprite>
     <sprite>sprites\spr_stopsign</sprite>
     <sprite>sprites\spr_stopsignV</sprite>
+    <sprite>sprites\spr_enemy2D</sprite>
+    <sprite>sprites\spr_enemy2U</sprite>
+    <sprite>sprites\spr_enemy2L</sprite>
+    <sprite>sprites\spr_enemyR</sprite>
+    <sprite>sprites\spr_enemy2detect</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\pavement</background>
+    <background>background\roadtile</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -84,6 +90,7 @@
     <object>objects\obj_roof</object>
     <object>objects\obj_stopsign</object>
     <object>objects\obj_stopsignV</object>
+    <object>objects\obj_enemy2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level2</room>

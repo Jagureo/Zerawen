@@ -73,7 +73,7 @@
     <instance objName="obj_stopsign" x="544" y="608" name="inst_ABD4EBB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stopsignV" x="0" y="192" name="inst_8A351CC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lamp" x="640" y="672" name="inst_EF8FA0F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tree" x="512" y="320" name="inst_68B1EB22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy2" x="672" y="384" name="inst_9CB53B49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="pavement" x="0" y="192" w="64" h="64" xo="64" yo="128" id="10000001" name="inst_7FD9130E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -155,6 +155,56 @@
     <tile bgName="pavement" x="704" y="832" w="64" h="64" xo="128" yo="64" id="10000126" name="inst_942BB8AB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="pavement" x="704" y="896" w="64" h="64" xo="128" yo="64" id="10000127" name="inst_8422F7E2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="pavement" x="704" y="960" w="64" h="64" xo="128" yo="64" id="10000128" name="inst_D5C54CA7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="0" y="256" w="64" h="64" xo="0" yo="0" id="10000129" name="inst_EEE56C42" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="0" y="320" w="64" h="64" xo="0" yo="0" id="10000130" name="inst_E0374B32" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="64" y="256" w="64" h="64" xo="0" yo="0" id="10000131" name="inst_C501DA7C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="64" y="320" w="64" h="64" xo="0" yo="0" id="10000132" name="inst_26E51115" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="128" y="320" w="64" h="64" xo="0" yo="0" id="10000133" name="inst_139A5A1F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="128" y="256" w="64" h="64" xo="0" yo="0" id="10000134" name="inst_3657BC20" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="192" y="256" w="64" h="64" xo="0" yo="0" id="10000135" name="inst_49CFECC2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="192" y="320" w="64" h="64" xo="0" yo="0" id="10000136" name="inst_92A5B8F3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="256" y="256" w="64" h="64" xo="0" yo="0" id="10000137" name="inst_F8CAC2A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="256" y="320" w="64" h="64" xo="0" yo="0" id="10000138" name="inst_2C68358C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="320" y="256" w="64" h="64" xo="0" yo="0" id="10000139" name="inst_6CE15946" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="320" y="320" w="64" h="64" xo="0" yo="0" id="10000140" name="inst_76386936" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="384" y="256" w="64" h="64" xo="0" yo="0" id="10000141" name="inst_F266D941" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="384" y="320" w="64" h="64" xo="0" yo="0" id="10000142" name="inst_57DAA555" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="256" w="64" h="64" xo="0" yo="0" id="10000143" name="inst_AD80D382" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="320" w="64" h="64" xo="0" yo="0" id="10000144" name="inst_2BCD0E01" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="256" w="64" h="64" xo="0" yo="0" id="10000145" name="inst_FF8A965E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="320" w="64" h="64" xo="0" yo="0" id="10000146" name="inst_92E51829" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="384" w="64" h="64" xo="0" yo="0" id="10000147" name="inst_4E4A69E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="384" w="64" h="64" xo="0" yo="0" id="10000148" name="inst_E544A03F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="448" w="64" h="64" xo="0" yo="0" id="10000149" name="inst_2CD66262" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="448" w="64" h="64" xo="0" yo="0" id="10000150" name="inst_4205F69A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="512" w="64" h="64" xo="0" yo="0" id="10000151" name="inst_9184D215" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="512" w="64" h="64" xo="0" yo="0" id="10000152" name="inst_A335ED07" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="576" w="64" h="64" xo="0" yo="0" id="10000153" name="inst_2716EAB1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="576" w="64" h="64" xo="0" yo="0" id="10000154" name="inst_7AE37377" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="640" w="64" h="64" xo="0" yo="0" id="10000155" name="inst_E383C2B8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="640" w="64" h="64" xo="0" yo="0" id="10000156" name="inst_ACD757C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="704" w="64" h="64" xo="0" yo="0" id="10000157" name="inst_B57921E1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="704" w="64" h="64" xo="0" yo="0" id="10000158" name="inst_516FE485" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="768" w="64" h="64" xo="0" yo="0" id="10000159" name="inst_4B58CD59" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="768" w="64" h="64" xo="0" yo="0" id="10000160" name="inst_48529A27" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="832" w="64" h="64" xo="0" yo="0" id="10000161" name="inst_24E5DB45" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="512" y="896" w="64" h="64" xo="0" yo="0" id="10000162" name="inst_6D4159FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="832" w="64" h="64" xo="0" yo="0" id="10000163" name="inst_9B136065" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="448" y="896" w="64" h="64" xo="0" yo="0" id="10000164" name="inst_12B32B9F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="384" y="832" w="64" h="64" xo="0" yo="0" id="10000165" name="inst_2F44AE1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="384" y="896" w="64" h="64" xo="0" yo="0" id="10000166" name="inst_50EA92CB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="320" y="832" w="64" h="64" xo="0" yo="0" id="10000167" name="inst_FCB5E20B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="320" y="896" w="64" h="64" xo="0" yo="0" id="10000168" name="inst_D5900223" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="256" y="832" w="64" h="64" xo="0" yo="0" id="10000169" name="inst_4CF76FF2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="256" y="896" w="64" h="64" xo="0" yo="0" id="10000170" name="inst_59E597A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="192" y="832" w="64" h="64" xo="0" yo="0" id="10000171" name="inst_0706ED60" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="192" y="896" w="64" h="64" xo="0" yo="0" id="10000172" name="inst_3AD37EE7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="128" y="832" w="64" h="64" xo="0" yo="0" id="10000173" name="inst_BEFCB58A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="128" y="896" w="64" h="64" xo="0" yo="0" id="10000174" name="inst_85CE0614" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="64" y="832" w="64" h="64" xo="0" yo="0" id="10000175" name="inst_33ADE385" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="64" y="896" w="64" h="64" xo="0" yo="0" id="10000176" name="inst_DCA7CE1E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="0" y="832" w="64" h="64" xo="0" yo="0" id="10000177" name="inst_7EB6572A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="roadtile" x="0" y="896" w="64" h="64" xo="0" yo="0" id="10000178" name="inst_54475BEF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
