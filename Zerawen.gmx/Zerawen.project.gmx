@@ -63,11 +63,30 @@
     <sprite>sprites\spr_enemy2L</sprite>
     <sprite>sprites\spr_enemyR</sprite>
     <sprite>sprites\spr_enemy2detect</sprite>
+    <sprite>sprites\spr_ghostBait</sprite>
+    <sprite>sprites\spr_cityBox</sprite>
+    <sprite>sprites\spr_cityBoxLR</sprite>
+    <sprite>sprites\spr_cityBoxMR</sprite>
+    <sprite>sprites\spr_cityBoxRR</sprite>
+    <sprite>sprites\spr_cityGrey</sprite>
+    <sprite>sprites\spr_citySmoke</sprite>
+    <sprite>sprites\spr_cityclock</sprite>
+    <sprite>sprites\spr_cityclockDmg</sprite>
+    <sprite>sprites\spr_cityBoss</sprite>
+    <sprite>sprites\spr_citybullet</sprite>
+    <sprite>sprites\spr_youwin</sprite>
+    <sprite>sprites\spr_youlose</sprite>
+    <sprite>sprites\spr_btnlvl1</sprite>
+    <sprite>sprites\spr_btnlvl2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\pavement</background>
     <background>background\roadtile</background>
+    <background>background\wires</background>
+    <background>background\mainmenubg</background>
+    <background>background\mainsmoke</background>
+    <background>background\maintext</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -90,11 +109,35 @@
     <object>objects\obj_roof</object>
     <object>objects\obj_stopsign</object>
     <object>objects\obj_stopsignV</object>
-    <object>objects\obj_enemy2</object>
+    <object>objects\obj_stopsignV2</object>
+    <object>objects\obj_stopsignB</object>
+    <object>objects\obj_enemy21</object>
+    <object>objects\obj_ghostbait1</object>
+    <object>objects\obj_enemy22</object>
+    <object>objects\obj_ghostbait2</object>
+    <object>objects\obj_cityBoxF</object>
+    <object>objects\obj_greyoverlay</object>
+    <object>objects\obj_redLR</object>
+    <object>objects\obj_redMR</object>
+    <object>objects\obj_redRR</object>
+    <object>objects\obj_cityS1</object>
+    <object>objects\obj_cityS2</object>
+    <object>objects\obj_cityS3</object>
+    <object>objects\obj_citySmoke</object>
+    <object>objects\obj_cityclockboss1</object>
+    <object>objects\obj_cityclockboss2</object>
+    <object>objects\obj_cityclockboss3</object>
+    <object>objects\obj_cityboss</object>
+    <object>objects\obj_citybullet</object>
+    <object>objects\obj_youwin</object>
+    <object>objects\obj_youlose</object>
+    <object>objects\btn_level1</object>
+    <object>objects\btn_level2</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\level2</room>
+    <room>rooms\mainmenu</room>
     <room>rooms\room0</room>
+    <room>rooms\level2</room>
     <room>rooms\room1</room>
   </rooms>
   <help>
